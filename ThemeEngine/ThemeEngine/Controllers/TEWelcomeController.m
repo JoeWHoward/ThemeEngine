@@ -75,6 +75,13 @@
     [[TEDocumentController sharedDocumentController] openDocument:sender];
 }
 
+- (void)clearRecentDocuments:(id)sender {
+    [[TEDocumentController sharedDocumentController] clearRecentDocuments: nil];
+    
+    self.URLs = [[TEDocumentController sharedDocumentController] recentDocumentURLs];
+    [self.recentsTable reloadData];
+}
+
 #pragma mark - Table
 
 - (void)dismissController:(nullable id)sender {
