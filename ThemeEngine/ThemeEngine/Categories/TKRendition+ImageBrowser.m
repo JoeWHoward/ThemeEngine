@@ -31,11 +31,11 @@
 }
 
 - (NSString *)imageTitle {
-    return CoreThemeStateToString(self.state);
+    return [NSString stringWithFormat:@" %.0fx", self.scale];
 }
 
 - (NSString *)imageSubtitle {
-    return CoreThemeSizeToString(self.size);
+    return CoreThemeIdiomToString(self.idiom);
 }
 
 @end
