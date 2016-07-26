@@ -38,8 +38,6 @@
 		FA80CE0F1B30BF36005E5DD2 /* TEGradientStopLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA80CE0E1B30BF36005E5DD2 /* TEGradientStopLayer.m */; };
 		FA81475D1B2D95D100881F36 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA81475C1B2D95D100881F36 /* Quartz.framework */; };
 		FA8313DE1B3B221E003D0F4A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA8313DD1B3B221E003D0F4A /* Credits.rtf */; };
-		FA8313E01B3B2237003D0F4A /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FA8313DB1B3B2218003D0F4A /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FA8313E11B3B2251003D0F4A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8313DB1B3B2218003D0F4A /* Sparkle.framework */; };
 		FA8313E61B3B390A003D0F4A /* TECaarInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8313E51B3B390A003D0F4A /* TECaarInspector.m */; };
 		FAA2B1BE1B2E023900D70473 /* TKRendition+ImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2B1BD1B2E023900D70473 /* TKRendition+ImageBrowser.m */; };
 		FAA54F691B2E211F00EA15F2 /* RBLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA54F681B2E211F00EA15F2 /* RBLScrollView.m */; };
@@ -76,20 +74,6 @@
 		FAEA99861B36469A00EEA486 /* NSColor+TE.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA99851B36469A00EEA486 /* NSColor+TE.m */; };
 		FAEA99891B36587D00EEA486 /* TEBackgroundColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA99881B36587D00EEA486 /* TEBackgroundColorView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FA4DCE851B2D9C1700D820FD /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FA8313E01B3B2237003D0F4A /* Sparkle.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		800CBE731D4748970065E13B /* ThemeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ThemeKit.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/ThemeEngine-eigaxnckebtaugeulcuvoexeslac/Build/Products/Debug/ThemeKit.framework"; sourceTree = "<group>"; };
@@ -150,7 +134,6 @@
 		FA80CE0D1B30BF36005E5DD2 /* TEGradientStopLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TEGradientStopLayer.h; path = Views/TEGradientStopLayer.h; sourceTree = "<group>"; };
 		FA80CE0E1B30BF36005E5DD2 /* TEGradientStopLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TEGradientStopLayer.m; path = Views/TEGradientStopLayer.m; sourceTree = "<group>"; };
 		FA81475C1B2D95D100881F36 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
-		FA8313DB1B3B2218003D0F4A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		FA8313DD1B3B221E003D0F4A /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = Resources/Credits.rtf; sourceTree = "<group>"; };
 		FA8313E41B3B390A003D0F4A /* TECaarInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TECaarInspector.h; path = Controllers/Inspectors/TECaarInspector.h; sourceTree = "<group>"; };
 		FA8313E51B3B390A003D0F4A /* TECaarInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TECaarInspector.m; path = Controllers/Inspectors/TECaarInspector.m; sourceTree = "<group>"; };
@@ -225,7 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				800CBE741D4748970065E13B /* ThemeKit.framework in Frameworks */,
-				FA8313E11B3B2251003D0F4A /* Sparkle.framework in Frameworks */,
 				FA81475D1B2D95D100881F36 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +323,6 @@
 		FA8313DA1B3B2218003D0F4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA8313DB1B3B2218003D0F4A /* Sparkle.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -462,7 +443,6 @@
 				FA606C051B2C1D2100F24960 /* Sources */,
 				FA606C061B2C1D2100F24960 /* Frameworks */,
 				FA606C071B2C1D2100F24960 /* Resources */,
-				FA4DCE851B2D9C1700D820FD /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
